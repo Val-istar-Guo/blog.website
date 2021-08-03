@@ -1,28 +1,14 @@
 <template>
-  <v-app id="inspire">
-    <v-navigation-drawer
-      v-model="drawer"
-      app
-    >
-      <!--  -->
-    </v-navigation-drawer>
-
-    <v-app-bar app>
-      <v-app-bar-nav-icon @click="drawer = !drawer" />
-
-      <v-toolbar-title>Application</v-toolbar-title>
-    </v-app-bar>
-
-    <v-main>
-      <!--  -->
-    </v-main>
-  </v-app>
+  <v-app id="inspire" />
 </template>
+
 <script lang="ts">
-export default {
-  data: () => ({ drawer: null }),
-  head() {
-    return { title: 'NuxtJS' }
+import Vue from 'vue'
+
+export default Vue.extend({
+  asyncData({ redirect }) {
+    redirect('/articles')
   },
-}
+
+})
 </script>

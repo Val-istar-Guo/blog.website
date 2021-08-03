@@ -29,6 +29,10 @@
             >
               {{ desc }}
             </h4>
+            <v-img
+              class="mt-8 mb-16"
+              src="https://github-readme-stats.vercel.app/api?username=val-istar-guo&show_icons=true&hide_title=true&hide_border=true&theme=graywhite&locale=cn"
+            />
           </v-col>
         </v-row>
         <v-row justify="center">

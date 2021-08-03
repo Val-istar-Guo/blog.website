@@ -1,5 +1,5 @@
 {
-  "name": "@website/blog",
+  "name": "website-blog",
   "main": "dist/index.js",
   "scripts": {
     "dev": "nuxt",

@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="4.3.5"></a>
+## [5.1.0](https://www.github.com/Val-istar-Guo/blog.website/compare/v5.0.0...v5.1.0) (2021-08-03)
+
+
+### Features
+
+* add github stars ([d766ef0](https://www.github.com/Val-istar-Guo/blog.website/commit/d766ef04ac0ec01d0d0212e5384ae74fbbf96836))
+
 ## [5.0.0](https://www.github.com/Val-istar-Guo/blog.website/compare/v4.3.5...v5.0.0) (2021-08-03)
 
 

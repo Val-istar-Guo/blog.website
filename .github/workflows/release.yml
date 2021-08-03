@@ -3,7 +3,7 @@ on:
     branches:
       - master
       - main
-name: release
+name: Release DockerHub
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -29,4 +29,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: valistarguo/website-blog:latest
+          tags: valistarguo/website-blog:latest,valistarguo/website-blog:4.3.5

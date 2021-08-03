@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="4.3.5"></a>
+## [5.0.0](https://www.github.com/Val-istar-Guo/blog.website/compare/v4.3.5...v5.0.0) (2021-08-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* 完全更换设计和技术架构，部署方式更换为docker
+
+### Features
+
+* 增加docker自动构建Action ([2ed2c63](https://www.github.com/Val-istar-Guo/blog.website/commit/2ed2c63aa89b7668be6653fb59e753c830ba3c75))
+* 首页自动跳转 ([48678e6](https://www.github.com/Val-istar-Guo/blog.website/commit/48678e669124e5fe2c2787fa5065ed63d99b9a55))
+
+
+### Code Refactoring
+
+* 使用nuxtjs重构 ([a60a43e](https://www.github.com/Val-istar-Guo/blog.website/commit/a60a43e37f83b5c9e2769cebefd47d6a7cb87b87))
+
 ## [4.3.5](https://github.com/Val-istar-Guo/miaooo.me/compare/v4.3.4...v4.3.5) (2021-05-10)
 
 

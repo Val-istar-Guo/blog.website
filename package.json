@@ -16,7 +16,7 @@
     "lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\"  --fix"
   },
   "description": "Blog of Val.istar.Guo",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "repository": "https://github.com/Val-istar-Guo/miaooo.me.git",
   "keywords": [
     "miaooo.me",

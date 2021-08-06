@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="4.3.5"></a>
+### [5.1.1](https://www.github.com/Val-istar-Guo/blog.website/compare/v5.1.0...v5.1.1) (2021-08-06)
+
+
+### Bug Fixes
+
+* 手机端展示页面被缩小 ([e359eed](https://www.github.com/Val-istar-Guo/blog.website/commit/e359eed4839c7715cfb9d3333819f9b84f6e31e6))
+
 ## [5.1.0](https://www.github.com/Val-istar-Guo/blog.website/compare/v5.0.0...v5.1.0) (2021-08-03)
 
 

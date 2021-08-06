@@ -11,23 +11,29 @@
           justify="center"
         >
           <v-col
-            class="text-center  pb-16 mb-16"
-            cols="6"
+            class="text-center  pb-sm-16 mb-sm-16"
+            cols="12"
+            sm="6"
           >
-            <h1 class="text-h1 font-weight-thin mb-6">
+            <h1 class="text-h3 text-sm-h1 font-weight-thin mb-6">
               {{ author.name }}
             </h1>
 
-            <h6 class="text-h6 font-weight-thin">
+            <h6 class="text-subtitle-1 text-sm-h6 font-weight-thin">
               欢迎来到我的博客
             </h6>
 
             <h4
-              v-for="(desc, index) of author.description"
-              :key="index"
-              class="subheading"
+              v-if="$vuetify.breakpoint.smAndUp"
+              class="text-caption text-sm-subtitle-1"
             >
-              {{ desc }}
+              <span
+                v-for="(desc, index) of author.description"
+                :key="index"
+                class="d-block"
+              >
+                {{ desc }}
+              </span>
             </h4>
             <v-img
               class="mt-8 mb-16"

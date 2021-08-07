@@ -13,32 +13,42 @@
           <v-col
             class="text-center  pb-sm-16 mb-sm-16"
             cols="12"
-            sm="6"
+            lg="6"
+            md="8"
+            sm="12"
           >
-            <h1 class="text-h3 text-sm-h1 font-weight-thin mb-6">
-              {{ author.name }}
-            </h1>
+            <v-row>
+              <v-col>
+                <h1 class="text-h3 text-md-h1 font-weight-thin mb-6">
+                  {{ author.name }}
+                </h1>
 
-            <h6 class="text-subtitle-1 text-sm-h6 font-weight-thin">
-              欢迎来到我的博客
-            </h6>
+                <h6 class="text-subtitle-1 text-sm-h6 font-weight-thin">
+                  欢迎来到我的博客
+                </h6>
 
-            <h4
-              v-if="$vuetify.breakpoint.smAndUp"
-              class="text-caption text-sm-subtitle-1"
-            >
-              <span
-                v-for="(desc, index) of author.description"
-                :key="index"
-                class="d-block"
-              >
-                {{ desc }}
-              </span>
-            </h4>
-            <v-img
-              class="mt-8 mb-16"
-              src="https://github-readme-stats.vercel.app/api?username=val-istar-guo&show_icons=true&hide_title=true&hide_border=true&theme=graywhite&locale=cn"
-            />
+                <h4
+                  v-if="$vuetify.breakpoint.mdAndUp"
+                  class="text-caption text-sm-subtitle-1"
+                >
+                  <span
+                    v-for="(desc, index) of author.description"
+                    :key="index"
+                    class="d-block"
+                  >
+                    {{ desc }}
+                  </span>
+                </h4>
+              </v-col>
+            </v-row>
+            <v-row justify="center">
+              <v-col cols="12" xl="6" lg="10" md="10" sm="8">
+                <v-img
+                  class="mt-1 mb-16 mt-md-6"
+                  src="https://github-readme-stats.vercel.app/api?username=val-istar-guo&show_icons=true&hide_title=true&hide_border=true&theme=graywhite&locale=cn"
+                />
+              </v-col>
+            </v-row>
           </v-col>
         </v-row>
         <v-row justify="center">

@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="4.3.5"></a>
+## [5.2.0](https://www.github.com/Val-istar-Guo/blog.website/compare/v5.1.1...v5.2.0) (2021-08-07)
+
+
+### Features
+
+* 适配不同电脑屏幕尺寸 ([616fbf4](https://www.github.com/Val-istar-Guo/blog.website/commit/616fbf4bf2ce072caab26f58cdee303320e050f3))
+
 ### [5.1.1](https://www.github.com/Val-istar-Guo/blog.website/compare/v5.1.0...v5.1.1) (2021-08-06)
 
 

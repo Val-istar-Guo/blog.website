@@ -11,7 +11,7 @@
           justify="center"
         >
           <v-col
-            class="text-center  pb-sm-16 mb-sm-16"
+            class="text-center  pb-md-16"
             cols="12"
             lg="6"
             md="8"

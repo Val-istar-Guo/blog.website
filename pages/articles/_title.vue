@@ -17,20 +17,59 @@
         </v-list-item>
       </template>
 
-      <v-list dense nav>
-        <v-list-item
-          v-for="header in summary"
-          :key="header"
-          :href="`#${slug(header)}`"
-          link
-        >
-          <v-list-item-content>
-            <v-list-item-title>
-              {{ header }}
-            </v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
+      <v-treeview
+        :items="summary"
+        open-all
+        item-text="title"
+        item-key="slugger"
+        expand-icon=""
+      >
+        <template #label="{ item }">
+          <v-tooltip
+            v-if="item.depth === 2"
+            bottom
+            :disabled="item.title.length < 10"
+          >
+            <template #activator="{ on, attrs }">
+              <v-list-item
+                :href="`#${item.slugger}`"
+                nuxt
+                v-bind="attrs"
+                v-on="on"
+              >
+                <v-list-item-content>
+                  <v-list-item-title>
+                    {{ item.title }}
+                  </v-list-item-title>
+                </v-list-item-content>
+              </v-list-item>
+            </template>
+            <span>{{ item.title }}</span>
+          </v-tooltip>
+
+          <v-tooltip
+            v-else
+            bottom
+            :disabled="item.title.length < 10"
+          >
+            <template #activator="{ on, attrs }">
+              <v-list-item
+                :href="`#${item.slugger}`"
+                nuxt
+                v-bind="attrs"
+                v-on="on"
+              >
+                <v-list-item-content>
+                  <v-list-item-subtitle>
+                    {{ item.title }}
+                  </v-list-item-subtitle>
+                </v-list-item-content>
+              </v-list-item>
+            </template>
+            <span>{{ item.title }}</span>
+          </v-tooltip>
+        </template>
+      </v-treeview>
     </v-navigation-drawer>
     <v-app-bar
       app
@@ -73,7 +112,6 @@ import * as base64 from 'js-base64'
 import { request } from 'keq'
 import { getTitle } from '@/utils/get-title'
 import { getSummary } from '@/utils/get-summary'
-import Slugger from 'github-slugger'
 import * as author from '@/config/author'
 
 
@@ -107,13 +145,6 @@ export default Vue.extend({
   head() {
     const title = this.title as string
     return { title }
-  },
-
-  methods: {
-    slug(str: string): string {
-      return Slugger.slug(str)
-    },
-
   },
 })
 </script>

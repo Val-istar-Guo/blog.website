@@ -99,6 +99,7 @@
           <v-card class="flex" flat tile>
             <v-card-title>
               <strong class="subheading">2021©</strong>
+              <span class="text-body-2 ml-4">转载请注明出处</span>
             </v-card-title>
           </v-card>
         </v-footer>

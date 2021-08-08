@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="4.3.5"></a>
+## [5.3.0](https://www.github.com/Val-istar-Guo/blog.website/compare/v5.2.0...v5.3.0) (2021-08-08)
+
+
+### Features
+
+* 文章侧边栏增加二级菜单 ([bda404c](https://www.github.com/Val-istar-Guo/blog.website/commit/bda404c1eb282a374b9c25aa52a21004058ec028))
+
 ## [5.2.0](https://www.github.com/Val-istar-Guo/blog.website/compare/v5.1.1...v5.2.0) (2021-08-07)
 
 

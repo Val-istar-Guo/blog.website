@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="4.3.5"></a>
+## [5.4.0](https://www.github.com/Val-istar-Guo/blog.website/compare/v5.3.0...v5.4.0) (2021-08-08)
+
+
+### Features
+
+* 添加Footer：转载请注明出处 ([fe8ab46](https://www.github.com/Val-istar-Guo/blog.website/commit/fe8ab46ceed5b8b1e8826e7c259c4b00a200d383))
+
 ## [5.3.0](https://www.github.com/Val-istar-Guo/blog.website/compare/v5.2.0...v5.3.0) (2021-08-08)
 
 

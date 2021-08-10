@@ -12,6 +12,12 @@ export default {
       'zwitch',
     ],
   },
+  head: {
+    link: [
+      { rel: 'icon', type: 'image/png', href: '/favicon_96.png', size: '96x96' },
+      { rel: 'icon', type: 'image/png', href: '/favicon_48.png', size: '48x48' },
+    ],
+  },
   vuetify: {
     theme: {
       themes: {

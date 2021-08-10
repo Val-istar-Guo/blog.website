@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="4.3.5"></a>
+## [5.5.0](https://www.github.com/Val-istar-Guo/blog.website/compare/v5.4.0...v5.5.0) (2021-08-10)
+
+
+### Features
+
+* 添加favicon ([0abcdde](https://www.github.com/Val-istar-Guo/blog.website/commit/0abcdde34733c25b9ff1a23ae065edcfffe38bab))
+
 ## [5.4.0](https://www.github.com/Val-istar-Guo/blog.website/compare/v5.3.0...v5.4.0) (2021-08-08)
 
 

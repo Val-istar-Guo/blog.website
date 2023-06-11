@@ -1,7 +1,0 @@
-{
-  "components": true,
-  "buildModules": [
-    "@nuxtjs/vuetify",
-    "@nuxt/typescript-build"
-  ]
-}

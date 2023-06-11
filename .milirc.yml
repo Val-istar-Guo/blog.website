@@ -1,4 +1,0 @@
-template: npm:@mtpl/nuxtjs
-version: 1.0.1
-answers:
-  packageName: valistarguo/website-blog

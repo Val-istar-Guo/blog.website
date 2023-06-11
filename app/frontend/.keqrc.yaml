@@ -1,0 +1,4 @@
+outdir: ./src/api
+fileNamingStyle: snakeCase
+modules:
+  backend: http://localhost:3000/swagger

@@ -44,7 +44,7 @@
     "js-md5": "^0.7.3",
     "keq": "^1.2.2",
     "mdast-util-to-string": "^2.0.0",
-    "nuxt": "^2.15.7",
+    "nuxt": "^3.4.3",
     "prismjs": "^1.24.1",
     "ramda": "^0.27.1",
     "rehype-katex": "^5.0.0",
